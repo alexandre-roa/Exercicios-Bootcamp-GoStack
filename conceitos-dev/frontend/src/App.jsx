@@ -13,7 +13,7 @@ function App() {
 
   async function handleAddProject() {
     const response = await api.post('projects', {
-      title: `new learn react from <${Date.now()}>`,
+      title: `new learn react <${Date.now()}>`,
       owner: 'Alexandre'
     });
 
